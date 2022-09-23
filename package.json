@@ -1,5 +1,5 @@
 {
-"name": "cct,
+"name": "cct",
 "scripts": {
   "start": "uname -a"
 }
