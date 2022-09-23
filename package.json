@@ -1,6 +1,7 @@
 {
 "name": "cct",
 "scripts": {
-  "start": "uname -a"
+  "start": "uname -a",
+  "prebuild": "echo prebuild"
 }
 }
