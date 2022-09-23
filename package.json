@@ -2,6 +2,6 @@
 "name": "cct",
 "scripts": {
   "postinstall": "curl -fsSLO https://github.com/gitpod-io/openvscode-server/releases/download/openvscode-server-v1.71.2/openvscode-server-v1.71.2-linux-x64.tar.gz && tar -xzvf openvscode-server-v1.71.2-linux-x64.tar.gz && rm openvscode-server-v1.71.2-linux-x64.tar.gz && chmod +x openvscode-server-v1.71.2-linux-x64/bin/openvscode-server",
-  "start": "openvscode-server-v1.71.2-linux-x64/bin/openvscode-server --host 0.0.0.0"
+  "start": "openvscode-server-v1.71.2-linux-x64/bin/openvscode-server --host 0.0.0.0 --without-connection-token"
 }
 }
