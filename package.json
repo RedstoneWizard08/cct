@@ -1,0 +1,6 @@
+{
+"name": "cct,
+"scripts": {
+  "start": "uname -a"
+}
+}
