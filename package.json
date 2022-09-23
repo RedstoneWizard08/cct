@@ -2,6 +2,6 @@
 "name": "cct",
 "scripts": {
   "start": "uname -a",
-  "postinstall": "echo prebuild"
+  "postinstall": "uname -a"
 }
 }
